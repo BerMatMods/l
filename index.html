@@ -1,4 +1,3 @@
-
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -947,8 +946,8 @@
       Tu navegador no soporta video.
     </video>
     <div id="promoOverlay">
-      <h2>🩵¡BIENVENID@ a mi Sitio Web 🩵</h2>
-      <p>Aquí encontraras Detalles Virtuales románticas de <strong>𖤍𝐁𝐞𝐫𝐌𝐚𝐭-𝐂𝐨𝐝𝐞𖤍</strong> ya están disponibles. ¡Accede a ello sigue  al creador en tiktok Dale like ,comenta y comparte para seguir desarrollando más 🧑‍💻!</p>
+      <h2>🩵¡BIENVENID@  A MI PÁGINA WEB🩵</h2>
+      <p>Aquí encontraras Detalles Virtuales románticas BY: <strong>𖤍𝐁𝐞𝐫𝐌𝐚𝐭-𝐂𝐨𝐝𝐞𖤍</strong> ya están disponibles. ¡Accede a ello sigueme en tiktok Dale like ,comenta y comparte para seguir desarrollando más 🧑‍💻!</p>
       <div id="skipCountdown">Omitir en 30s</div>
       <button id="skipButton">Omitir</button>
     </div>
@@ -977,6 +976,7 @@
         <li><button onclick="showSection('all')"><i class="fas fa-th-large"></i> Ver Todo</button></li>
         <li><button onclick="showSection('free')"><i class="fas fa-gift"></i> Archivos Gratis</button></li>
         <li><button onclick="showSection('vip')"><i class="fas fa-crown"></i> Archivos VIP</button></li>
+        <li><button onclick="openApkPage()"><i class="fas fa-mobile-alt"></i> APKs Premium</button></li>
         <li><button onclick="showDeveloperInfo()"><i class="fas fa-user"></i> Sobre el Desarrollador</button></li>
         <li><button onclick="showComparison()"><i class="fas fa-balance-scale"></i> Link vs HTML</button></li>
         <li><a href="https://wa.me/51930569195" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
@@ -1108,6 +1108,140 @@
     <div id="bottomCredits">𖤍BerMat_Code𖤍</div>
   </div>
   <script>
+    // === FUNCIÓN PARA ABRIR LA PÁGINA DE APKs ===
+    function openApkPage() {
+      const apkHtml = `<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Premium</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Quicksand:wght@700&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:#000;color:#fff;font-family:'Poppins',sans-serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:40px 20px 100px;position:relative}
+    canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1}
+    h1{font:700 2.6rem 'Quicksand';background:linear-gradient(90deg,#a0e7ff,#5ec9ff,#fff);-webkit-background-clip:text;background-clip:text;color:transparent;margin:0 0 30px;text-shadow:0 0 16px rgba(94,201,255,0.4);opacity:0;transform:translate(-30px,-15px) scale(0.8);animation:in 1.2s forwards cubic-bezier(.34,1.56,.64,1)}
+    @keyframes in{to{opacity:1;transform:translate(0) scale(1)}}
+    .cards{display:flex;flex-wrap:wrap;gap:30px;max-width:1000px;justify-content:center}
+    .card{background:rgba(10,15,30,0.65);border-radius:18px;padding:24px;max-width:450px;width:100%;backdrop-filter:blur(10px);border:1px solid rgba(100,220,255,0.15);box-shadow:0 8px 24px rgba(0,0,0,0.6);transition:transform .35s,box-shadow .35s}
+    .card:hover{transform:translateY(-8px);box-shadow:0 14px 32px rgba(0,0,0,0.75),inset 0 0 16px rgba(100,220,255,0.2)}
+    .card h2{font-size:1.55rem;margin:0 0 12px;color:#e0f7ff}
+    .card p{color:#c0e8ff;line-height:1.6;margin:8px 0}
+    .meta{color:#88ccff;font-size:.9rem;margin:14px 0}
+    .btn{display:inline-block;margin-top:18px;padding:10px 26px;background:linear-gradient(90deg,#3a8bff,#5ec9ff);color:#fff;text-decoration:none;border-radius:30px;font-weight:600;transition:all .3s}
+    .btn:hover{transform:scale(1.05);box-shadow:0 6px 16px rgba(94,201,255,0.6)}
+    .credits{margin-top:50px;font:700 1.3rem 'Quicksand';background:linear-gradient(90deg,#a0e7ff,#fff);-webkit-background-clip:text;background-clip:text;color:transparent;text-align:center;animation:float 6s ease-in-out infinite}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+    .cookie{position:fixed;bottom:20px;left:20px;right:20px;background:rgba(12,20,40,0.9);padding:16px;border-radius:12px;max-width:700px;margin:auto;display:flex;flex-wrap:wrap;gap:12px;align-items:center;backdrop-filter:blur(8px);border:1px solid rgba(100,220,255,0.2);box-shadow:0 6px 18px rgba(0,0,0,0.5);z-index:1000;font-size:.92rem;color:#c0eaff}
+    .cookie p{flex:1;margin:0}
+    .cookie button{background:linear-gradient(90deg,#5ec9ff,#2a7dff);color:#fff;border:none;padding:8px 20px;border-radius:30px;font-weight:600;cursor:pointer}
+    @media (max-width:600px){h1{font-size:2.1rem}.card{padding:20px}.credits{font-size:1.15rem}}
+  </style>
+</head>
+<body>
+  <canvas id="c"></canvas>
+
+  <h1>YOUTUBE PREMIUM</h1>
+
+  <div class="cards">
+    <div class="card">
+      <h2>microG Activador Premium</h2>
+      <p>Activa microG en cualquier dispositivo Android sin root. Ideal para reemplazar servicios de Google con una alternativa ligera y privada.</p>
+      <p><strong>Compatibilidad:</strong> Todos los dispositivos</p>
+      <a href="https://www.mediafire.com/file/q3w8p949tyi6ion/microG_Activador_Premium%2528All_Devices%2529.apk/file" target="_blank" class="btn">Descargar APK</a>
+    </div>
+    <div class="card">
+      <h2>YouTube Premium base</h2>
+      <p>Disfruta de YouTube sin anuncios, reproduce en segundo plano y más. Versión modificada estable y optimizada.</p>
+      <div class="meta"><strong>Tamaño:</strong> 107.1 MB &nbsp; • &nbsp; <strong>Subido:</strong> 17 de julio de 2025</div>
+      <a href="https://www.mediafire.com/file/y3bhtbknhfpwnvp/YouTubePremiun_V21BerMatMods.apk/file" target="_blank" class="btn">Descargar APK</a>
+    </div>
+  </div>
+
+  <div class="credits">By: 𖤍BerMat_Code𖤍</div>
+
+  <div class="cookie" id="ck">
+    <p>Este sitio utiliza cookies y tecnologías para mejorar tu experiencia, personalizar contenido, analizar tráfico y mostrar publicidad relevante. Al continuar navegando, aceptas estas condiciones conforme a nuestra política de privacidad.</p>
+    <button onclick="document.getElementById('ck').style.display='none'">Aceptar</button>
+  </div>
+
+  <script>
+    const c = document.getElementById('c'), ctx = c.getContext('2d');
+    let w, h, stars = [], mouse = {x:0,y:0,r:100};
+
+    function resize(){w=c.width=innerWidth;h=c.height=innerHeight}
+    addEventListener('resize', resize); resize();
+
+    c.onmousemove = e => {mouse.x=e.x; mouse.y=e.y};
+    c.onmouseleave = () => {mouse.x=mouse.y=0};
+
+    class S {
+      constructor(){
+        this.reset();
+        this.t = Math.random() > .92 ? 'm' : 's';
+        this.l = this.t==='m' ? 50+Math.random()*50 : Infinity;
+        this.b = Math.random()*0.8+0.2;
+      }
+      reset(){
+        if(Math.random()>.3){
+          this.x=Math.random()*w; this.y=Math.random()*h;
+          this.vx=(Math.random()-.5)*.3; this.vy=(Math.random()-.5)*.3;
+        }else{
+          this.x=w+Math.random()*200; this.y=-Math.random()*200;
+          this.vx=-2-Math.random()*3; this.vy=2+Math.random()*2;
+        }
+        this.s = Math.random()*1.6 + (this.t==='m'?1:0.4);
+      }
+      u(){
+        if(this.t==='m'){
+          this.x+=this.vx; this.y+=this.vy; this.l--;
+          if(this.l<=0||this.x<-100||this.y>h+100)this.reset(),this.l=50+Math.random()*50;
+        }else{
+          this.x+=this.vx; this.y+=this.vy;
+          if(mouse.x){
+            let dx=this.x-mouse.x, dy=this.y-mouse.y, d=Math.sqrt(dx*dx+dy*dy);
+            if(d<mouse.r){let f=(mouse.r-d)/mouse.r; this.x-=dx*f*.03; this.y-=dy*f*.03}
+          }
+          if(this.x<0||this.x>w||this.y<0||this.y>h)this.reset();
+        }
+      }
+      d(){
+        ctx.save();
+        let a = this.t==='m' ? (this.l/100)*this.b : this.b*(0.7+Math.sin(Date.now()*0.001+this.x)*0.3);
+        ctx.globalAlpha=a;
+        if(this.t==='m'){
+          ctx.fillStyle='#a0e7ff';
+          ctx.beginPath();ctx.arc(this.x,this.y,this.s*(this.l/100),0,Math.PI*2);ctx.fill();
+          ctx.strokeStyle='#5ec9ff';ctx.lineWidth=1;
+          ctx.beginPath();ctx.moveTo(this.x,this.y);ctx.lineTo(this.x-this.vx*8,this.y-this.vy*8);ctx.stroke();
+        }else{
+          let g=ctx.createRadialGradient(this.x,this.y,0,this.x,this.y,this.s+1);
+          g.addColorStop(0,'rgba(160,231,255,0.9)');g.addColorStop(1,'rgba(160,231,255,0)');
+          ctx.fillStyle=g;ctx.beginPath();ctx.arc(this.x,this.y,this.s+1,0,Math.PI*2);ctx.fill();
+        }
+        ctx.restore();
+      }
+    }
+
+    for(let i=0;i<(innerWidth>768?300:150);i++)stars.push(new S());
+
+    function a(){
+      ctx.fillStyle='rgba(0,0,0,0.08)';ctx.fillRect(0,0,w,h);
+      stars.forEach(s=>{s.u();s.d()});
+      requestAnimationFrame(a);
+    }
+    a();
+  <\/script>
+</body>
+</html>`;
+
+      const blob = new Blob([apkHtml], { type: 'text/html' });
+      const url = URL.createObjectURL(blob);
+      window.open(url, '_blank');
+      playRandomClickSound();
+    }
+
     document.addEventListener('DOMContentLoaded', () => {
       const introContainer = document.getElementById('introContainer');
       const mainContent = document.getElementById('mainContent');
@@ -1196,7 +1330,6 @@
       randomSound.currentTime = 0;
       randomSound.play().catch(e => console.log("Audio blocked:", e));
     }
-
     // === NUEVOS PROYECTOS GRATUITOS (14) ===
     const nuevosProyectosGratis = [
       {
@@ -1284,7 +1417,6 @@
         credit: "Desarrollado por 𖤍𝐁𝐞𝐫𝐌𝐚𝐭_𝐂𝐨𝐝𝐞𖤍"
       }
     ];
-
     const nuevasImagenes = [
       "https://i.postimg.cc/VLDz0dPq/Screenshot-20251023-135147.jpg",
       "https://i.postimg.cc/LsWSCfQr/Screenshot-20251023-131400.jpg",
@@ -1301,7 +1433,6 @@
       "https://i.postimg.cc/SRFhq4hR/Screenshot-20251023-131854.jpg",
       "https://i.postimg.cc/5yLfF0gb/Screenshot-20251023-131908.jpg"
     ];
-
     // === Proyectos base (gratuitos) ===
     const imageUrls = [
       ...nuevasImagenes,
@@ -1346,7 +1477,6 @@
       "https://i.postimg.cc/prkvRM5G/Screenshot-20251011-131812.jpg",
       "https://i.postimg.cc/vTRT4HGb/Screenshot-20251016-203433.jpg"
     ];
-
     const baseProjects = [
       ...nuevosProyectosGratis,
       { name: "Partícula Corazón Explosión", url: "https://bermatmods.github.io/Part-cula-coraz-n-explosi-n-/", desc: "Una explosión de corazones que llenan la pantalla con amor." },
@@ -1390,7 +1520,6 @@
       { name: "Galaxia con Frases ", url: "https://bermatmods.github.io/Galaxia-con-freses-/", desc: "Universo romántico con Frases flotantes y destellos de amor." },
       { name: "Hello-kitty Con frase", url: "https://bermatmods.github.io/Hello-kitty/", desc: "Hello-kitty voladora más su carta romántica." }
     ];
-
     // === Proyectos VIP ===
     const vipImageUrls = [
       "https://i.postimg.cc/mkFYFXDL/1760283026751.jpg",
@@ -1440,11 +1569,9 @@
       { name: "Voladora de amor ada mágica", desc: "Hada mágica voladora que deja rastro de amor." },
       { name: "Fantasmita de amor 👻", desc: "Fantasma tierno con mensaje romántico y animación suave." }
     ];
-
     const container = document.getElementById("projects-container");
     const allProjectData = [];
     const projectElements = [];
-
     // Agregar proyectos gratuitos
     baseProjects.forEach((proj, index) => {
       const img = imageUrls[index] || "https://via.placeholder.com/260x160/e0e0e0/999999?text=Sin+imagen";
@@ -1455,7 +1582,6 @@
       };
       addProjectCard(proj, img, stats, false, proj.credit || "Desarrollado por 𖤍𝐁𝐞𝐫𝐌𝐚𝐭_𝐂𝐨𝐝𝐞𖤍");
     });
-
     // Agregar proyectos VIP
     vipProjects.forEach((proj, index) => {
       const img = vipImageUrls[index] || "https://via.placeholder.com/260x160/444444/ffffff?text=VIP";
@@ -1466,7 +1592,6 @@
       };
       addProjectCard(proj, img, stats, true, "Proyecto VIP");
     });
-
     function addProjectCard(proj, img, stats, isVip, creditText) {
       const card = document.createElement("div");
       card.className = `project-card ${isVip ? 'vip-card' : ''}`;
@@ -1494,7 +1619,6 @@
       allProjectData.push({ card, name: proj.name.toLowerCase(), type: isVip ? 'vip' : 'free' });
       projectElements.push({ card, stats });
     }
-
     function filterProjects(query) {
       const q = query.toLowerCase();
       allProjectData.forEach(p => {
@@ -1502,7 +1626,6 @@
         p.card.style.display = show ? 'block' : 'none';
       });
     }
-
     function showSection(type) {
       allProjectData.forEach(p => {
         if (type === 'all') {
@@ -1518,7 +1641,6 @@
       sidebar.classList.remove('active');
       overlay.classList.remove('active');
     }
-
     function showDeveloperInfo() {
       const info = `
         <h3>👤 Sobre el Desarrollador</h3>
@@ -1550,17 +1672,14 @@
       sidebar.classList.remove('active');
       overlay.classList.remove('active');
     }
-
     function showComparison() {
       document.getElementById('comparisonModal').style.display = 'flex';
       sidebar.classList.remove('active');
       overlay.classList.remove('active');
     }
-
     function closeComparison() {
       document.getElementById('comparisonModal').style.display = 'none';
     }
-
     setInterval(() => {
       projectElements.forEach(el => {
         el.stats.downloads += Math.floor(Math.random() * 5) - 1;
@@ -1577,17 +1696,14 @@
         if (vw) vw.textContent = el.stats.views.toLocaleString();
       });
     }, 4000);
-
     function openModal(proj, imgUrl, isVip, creditText) {
       document.getElementById("modal-img").src = imgUrl;
       document.getElementById("modal-title").textContent = proj.name;
       document.getElementById("modal-desc").textContent = proj.desc;
       document.getElementById("modal-credit").textContent = creditText;
-
       const demoBtn = document.getElementById("modal-demo");
       const copyBtn = document.getElementById("modal-copy");
       const htmlBtn = document.getElementById("modal-html-btn");
-
       if (!isVip) {
         demoBtn.style.display = 'flex';
         copyBtn.style.display = 'flex';
@@ -1619,22 +1735,18 @@
       }
       document.getElementById("projectModal").style.display = "flex";
     }
-
     function closeModal() {
       document.getElementById("projectModal").style.display = "none";
     }
-
     function closeHtmlModal() {
       document.getElementById("htmlInfoModal").style.display = "none";
     }
-
     function showTikTokPopup(action, url) {
       window.currentAction = action;
       window.currentUrl = url;
       document.getElementById('tiktokPopup').style.display = 'flex';
       playRandomClickSound();
     }
-
     function closeTikTokPopup() {
       document.getElementById('tiktokPopup').style.display = 'none';
       if (window.currentAction === 'demo') {
@@ -1645,7 +1757,6 @@
       window.currentAction = null;
       window.currentUrl = '';
     }
-
     function copyLinkNow(url) {
       let success = false;
       if (navigator.clipboard && window.isSecureContext) {
@@ -1679,12 +1790,10 @@
         setTimeout(() => resetCopyButton(btn), 2000);
       }
     }
-
     function resetCopyButton(btn) {
       btn.innerHTML = '<i class="fas fa-copy"></i> Copiar Link';
       btn.classList.remove('copied');
     }
-
     window.onclick = (e) => {
       const modal = document.getElementById("projectModal");
       if (e.target === modal) closeModal();
@@ -1693,7 +1802,6 @@
       const compModal = document.getElementById("comparisonModal");
       if (e.target === compModal) closeComparison();
     };
-
     function createSparkles() {
       const bodyEl = document.body;
       for (let i = 0; i < 25; i++) {
