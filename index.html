@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -630,25 +631,60 @@
     .btn-vip:hover::before {
       left: 120%;
     }
-    .whatsapp-note {
+    /* Estilos para redes sociales en el modal */
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
       margin-top: 20px;
       padding-top: 16px;
       border-top: 1px dashed #D8BFD8;
-      color: #8A2BE2;
-      font-size: 0.9rem;
-      font-weight: 700;
     }
-    body.dark-theme .whatsapp-note {
+    body.dark-theme .social-links {
       border-top: 1px dashed #444;
-      color: #B19CD9;
     }
-    .whatsapp-note a {
+    .social-link {
       display: inline-flex;
       align-items: center;
-      gap: 6px;
-      color: #25d366;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      color: white;
+      font-size: 1.1rem;
       text-decoration: none;
-      font-weight: 800;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .social-link:hover {
+      transform: scale(1.1);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .social-instagram { background: #E1306C; }
+    .social-facebook { background: #1877F2; }
+    .social-youtube { background: #FF0000; }
+    .social-telegram { background: #0088CC; }
+    .social-tiktok { background: #000000; }
+    body.dark-theme .social-link {
+      box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    }
+
+    /* Footer redes */
+    .footer-social {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      margin-top: 12px;
+    }
+    .footer-social a {
+      color: #8A2BE2;
+      font-size: 1.3rem;
+      transition: transform 0.2s;
+    }
+    body.dark-theme .footer-social a {
+      color: #B19CD9;
+    }
+    .footer-social a:hover {
+      transform: translateY(-3px);
     }
     /* === NUEVO MODAL PEQUEÑO PARA HTML === */
     #htmlInfoModal {
@@ -946,7 +982,7 @@
       Tu navegador no soporta video.
     </video>
     <div id="promoOverlay">
-      <h2>🩵¡BIENVENID@  A MI PÁGINA WEB🩵</h2>
+      <h2>🩵¡BIENVENID@  A MI PÁGINA WEB🧑‍💻</h2>
       <p>Aquí encontraras Detalles Virtuales románticas BY: <strong>𖤍𝐁𝐞𝐫𝐌𝐚𝐭-𝐂𝐨𝐝𝐞𖤍</strong> ya están disponibles. ¡Accede a ello sigueme en tiktok Dale like ,comenta y comparte para seguir desarrollando más 🧑‍💻!</p>
       <div id="skipCountdown">Omitir en 30s</div>
       <button id="skipButton">Omitir</button>
@@ -979,8 +1015,13 @@
         <li><button onclick="openApkPage()"><i class="fas fa-mobile-alt"></i> APKs Premium</button></li>
         <li><button onclick="showDeveloperInfo()"><i class="fas fa-user"></i> Sobre el Desarrollador</button></li>
         <li><button onclick="showComparison()"><i class="fas fa-balance-scale"></i> Link vs HTML</button></li>
+        <!-- ✅ Nuevas redes sociales en sidebar -->
         <li><a href="https://wa.me/51930569195" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
-        <li><a href="https://www.tiktok.com/@bermat_mods" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a></li>
+        <li><a href="https://www.instagram.com/anthz_berrocal?igsh=MXFvamljcnN2bzJkbg==" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+        <li><a href="https://www.facebook.com/share/1AYGVF9ZKn/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+        <li><a href="https://youtube.com/@anthzz_berrocal" target="_blank"><i class="fab fa-youtube"></i> YouTube</a></li>
+        <li><a href="https://t.me/BerMatMods" target="_blank"><i class="fab fa-telegram"></i> Telegram</a></li>
+        <li><a href="https://www.tiktok.com/@bermat_mods?_r=1&_t=ZS-91CeuW1aTNV" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a></li>
         <li><button id="themeToggle"><i class="fas fa-moon"></i> Cambiar Tema</button></li>
       </ul>
       <div class="note">
@@ -1017,11 +1058,20 @@
             <i class="fas fa-file-code"></i> Obtener HTML
           </button>
         </div>
+        <!-- ✅ Redes sociales en modal de proyecto -->
         <div class="whatsapp-note">
           ¿Quieres personalizar este proyecto?<br>
           <a href="https://wa.me/51930569195" target="_blank">
             <i class="fab fa-whatsapp"></i> Escríbeme por WhatsApp
           </a>
+        </div>
+        <div class="social-links">
+          <a href="https://wa.me/51930569195" target="_blank" class="social-link" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/anthz_berrocal?igsh=MXFvamljcnN2bzJkbg==" target="_blank" class="social-link social-instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/share/1AYGVF9ZKn/" target="_blank" class="social-link social-facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://youtube.com/@anthzz_berrocal" target="_blank" class="social-link social-youtube" title="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://t.me/BerMatMods" target="_blank" class="social-link social-telegram" title="Telegram"><i class="fab fa-telegram"></i></a>
+          <a href="https://www.tiktok.com/@bermat_mods?_r=1&_t=ZS-91CeuW1aTNV" target="_blank" class="social-link social-tiktok" title="TikTok"><i class="fab fa-tiktok"></i></a>
         </div>
       </div>
     </div>
@@ -1034,6 +1084,14 @@
         <a href="" id="whatsappHtmlLink" class="btn-whatsapp-html" target="_blank">
           <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
         </a>
+        <!-- ✅ Redes sociales en modal HTML -->
+        <div class="social-links" style="margin-top: 15px;">
+          <a href="https://www.instagram.com/anthz_berrocal?igsh=MXFvamljcnN2bzJkbg==" target="_blank" class="social-link social-instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/share/1AYGVF9ZKn/" target="_blank" class="social-link social-facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://youtube.com/@anthzz_berrocal" target="_blank" class="social-link social-youtube" title="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://t.me/BerMatMods" target="_blank" class="social-link social-telegram" title="Telegram"><i class="fab fa-telegram"></i></a>
+          <a href="https://www.tiktok.com/@bermat_mods?_r=1&_t=ZS-91CeuW1aTNV" target="_blank" class="social-link social-tiktok" title="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
       </div>
     </div>
     <!-- MODAL GRANDE: COMPARACIÓN -->
@@ -1090,13 +1148,29 @@
         <button class="close-popup" onclick="closeTikTokPopup()">&times;</button>
         <h3>¡Apoya al creador! ❤️</h3>
         <p>Para ver el demo o copiar el enlace, por favor sigue a <strong>AnthZz Berrocal</strong> en TikTok. ¡Gracias por tu apoyo!</p>
-        <a href="https://www.tiktok.com/@bermat_mods" target="_blank" class="btn-tiktok-popup">
+        <a href="https://www.tiktok.com/@bermat_mods?_r=1&_t=ZS-91CeuW1aTNV" target="_blank" class="btn-tiktok-popup">
           <i class="fab fa-tiktok"></i> Seguir en TikTok
         </a>
+        <!-- ✅ Redes en popup como refuerzo -->
+        <div class="social-links" style="margin-top: 15px;">
+          <a href="https://www.instagram.com/anthz_berrocal?igsh=MXFvamljcnN2bzJkbg==" target="_blank" class="social-link social-instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/share/1AYGVF9ZKn/" target="_blank" class="social-link social-facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://youtube.com/@anthzz_berrocal" target="_blank" class="social-link social-youtube" title="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://t.me/BerMatMods" target="_blank" class="social-link social-telegram" title="Telegram"><i class="fab fa-telegram"></i></a>
+        </div>
       </div>
     </div>
     <footer>
       By AnthZz Berrocal • BerMatMods
+      <!-- ✅ Footer redes -->
+      <div class="footer-social">
+        <a href="https://wa.me/51930569195" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/anthz_berrocal?igsh=MXFvamljcnN2bzJkbg==" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/share/1AYGVF9ZKn/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://youtube.com/@anthzz_berrocal" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://t.me/BerMatMods" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+        <a href="https://www.tiktok.com/@bermat_mods?_r=1&_t=ZS-91CeuW1aTNV" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+      </div>
     </footer>
   </div>
   <!-- === BOTTOM BANNER VIDEO === -->
@@ -1141,9 +1215,7 @@
 </head>
 <body>
   <canvas id="c"></canvas>
-
   <h1>YOUTUBE PREMIUM</h1>
-
   <div class="cards">
     <div class="card">
       <h2>microG Activador Premium</h2>
@@ -1158,24 +1230,18 @@
       <a href="https://www.mediafire.com/file/y3bhtbknhfpwnvp/YouTubePremiun_V21BerMatMods.apk/file" target="_blank" class="btn">Descargar APK</a>
     </div>
   </div>
-
   <div class="credits">By: 𖤍BerMat_Code𖤍</div>
-
   <div class="cookie" id="ck">
     <p>Este sitio utiliza cookies y tecnologías para mejorar tu experiencia, personalizar contenido, analizar tráfico y mostrar publicidad relevante. Al continuar navegando, aceptas estas condiciones conforme a nuestra política de privacidad.</p>
     <button onclick="document.getElementById('ck').style.display='none'">Aceptar</button>
   </div>
-
   <script>
     const c = document.getElementById('c'), ctx = c.getContext('2d');
     let w, h, stars = [], mouse = {x:0,y:0,r:100};
-
     function resize(){w=c.width=innerWidth;h=c.height=innerHeight}
     addEventListener('resize', resize); resize();
-
     c.onmousemove = e => {mouse.x=e.x; mouse.y=e.y};
     c.onmouseleave = () => {mouse.x=mouse.y=0};
-
     class S {
       constructor(){
         this.reset();
@@ -1223,9 +1289,7 @@
         ctx.restore();
       }
     }
-
     for(let i=0;i<(innerWidth>768?300:150);i++)stars.push(new S());
-
     function a(){
       ctx.fillStyle='rgba(0,0,0,0.08)';ctx.fillRect(0,0,w,h);
       stars.forEach(s=>{s.u();s.d()});
@@ -1235,13 +1299,11 @@
   <\/script>
 </body>
 </html>`;
-
       const blob = new Blob([apkHtml], { type: 'text/html' });
       const url = URL.createObjectURL(blob);
       window.open(url, '_blank');
       playRandomClickSound();
     }
-
     document.addEventListener('DOMContentLoaded', () => {
       const introContainer = document.getElementById('introContainer');
       const mainContent = document.getElementById('mainContent');
@@ -1649,10 +1711,14 @@
         <p>Desarrollador de animaciones románticas interactivas con HTML, CSS y JavaScript.</p>
         <p>Todos los proyectos pueden personalizarse y entregarse en formato HTML mediante pago.</p>
         <p>¡Contáctame para crear algo único para ti o tu pareja!</p>
-        <div style="margin-top:15px;">
-          <a href="https://wa.me/51930569195" target="_blank" class="btn-whatsapp-html" style="padding:8px 16px;font-size:0.9rem;">
-            <i class="fab fa-whatsapp"></i> WhatsApp
-          </a>
+        <!-- ✅ Redes en modal info desarrollador -->
+        <div class="social-links" style="margin-top:15px;">
+          <a href="https://wa.me/51930569195" target="_blank" class="social-link" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/anthz_berrocal?igsh=MXFvamljcnN2bzJkbg==" target="_blank" class="social-link social-instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/share/1AYGVF9ZKn/" target="_blank" class="social-link social-facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://youtube.com/@anthzz_berrocal" target="_blank" class="social-link social-youtube" title="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://t.me/BerMatMods" target="_blank" class="social-link social-telegram" title="Telegram"><i class="fab fa-telegram"></i></a>
+          <a href="https://www.tiktok.com/@bermat_mods?_r=1&_t=ZS-91CeuW1aTNV" target="_blank" class="social-link social-tiktok" title="TikTok"><i class="fab fa-tiktok"></i></a>
         </div>
       `;
       const modal = document.createElement('div');
