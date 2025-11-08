@@ -1,154 +1,169 @@
-<div align="center">
-  <br>
 
-  <!-- PORTADA PRINCIPAL -->
-  <img src="https://i.postimg.cc/q712wXxS/Neon-Photo-Editor-20250828-223612454.png"
-       alt="Portada Oficial BerMatModZ"
-       width="100%"
-       style="border-radius: 15px; border: 2px solid #00ffaa; box-shadow: 0 0 25px rgba(0,255,255,0.4);"/>
+<!-- Banner de presentación -->
+<h1 align="center">⚡ 𝐁𝐄𝐑𝐌𝐀𝐓𝐌𝐎𝐃𝐙 👾</h1>
+<h3 align="center">💻 Innovador | Creador de Bots | Desarrollador | Ciberseguridad</h3>
 
-  <br><br>
-
-  <!-- TÍTULO PRINCIPAL -->
-  <h1 style="color:#00ffff; text-shadow:0 0 10px #00ffaa, 0 0 25px #00ffff; font-family:'Courier New', monospace;">
-    ╔════════════════════════════╗<br>
-    👋 ¡HOLA, SOY <strong>Anth'Zz Berrocal</strong>!<br>
-    <span style="color:#ff00ff;">⚡BerMatModZ🔥</span><br>
-    ╚════════════════════════════╝
-  </h1>
-
-  <!-- EMOJIS VISUALES -->
-  <p style="font-size:28px; letter-spacing:8px;">
-    🤖 👽 🧑‍💻 ⚡ 🔥 💾
-  </p>
-
-  <!-- BIENVENIDA -->
-  <p style="font-family:'Courier New', monospace; font-size:16px; color:#00ffaa;">
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40"/> 
-    <strong>Bienvenid@ al universo de desarrollo y ciberinteligencia BerMatModZ</strong>
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40"/>
-  </p>
-
-  <!-- BLOQUE DE INFORMACIÓN -->
-  <div style="background:#000; color:#00ffaa; padding:20px; border-radius:12px; font-family:'Courier New', monospace; font-size:15px; width:95%; max-width:780px; border:2px solid #00ffaa; box-shadow:0 0 25px rgba(0,255,170,0.3);">
-    <strong>╔════════════════════════════════════════════════╗</strong><br>
-    🧠 <strong style="color:#00ffff;">Desarrollador & Creador de Sistemas Inteligentes</strong><br>
-    🛠️ <strong style="color:#00ffff;">Especialización:</strong> Bots, IA, Automatización, Web, Ciberseguridad<br>
-    🧰 <strong style="color:#00ffff;">Herramientas:</strong> Termux, AIDE, GitHub, Node.js, Python, APIs<br>
-    🖥️ <strong style="color:#00ffff;">Lenguajes:</strong> Java ☕ | Python 🐍 | JavaScript ⚙️ | HTML/CSS | Bash 🐧<br>
-    🔐 <strong style="color:#00ffff;">Áreas:</strong> Ethical Hacking | Pentesting | Análisis Forense Digital 🔎<br>
-    📡 <strong style="color:#00ffff;">Entornos:</strong> Android | Linux | Web | Servidores Virtuales (VPS)<br>
-    🧩 <strong style="color:#00ffff;">Frameworks:</strong> React | Flask | Node | Express | Tailwind<br>
-    📍 <strong style="color:#00ffff;">Ubicación:</strong> Andahuaylas - Perú 🇵🇪<br>
-    <strong>╚════════════════════════════════════════════════╝</strong>
-  </div>
-</div>
+<p align="center">
+  <img src="https://i.postimg.cc/q712wXxS/Neon-Photo-Editor-20250828-223612454.png" width="80%" alt="Banner BerMatModZ"/>
+</p>
 
 ---
 
-<!-- REDES SOCIALES -->
-<h2 align="center" style="color:#00ffaa;">╔═══════🔗 REDES SOCIALES 🔗═══════╗</h2>
+### 👤 Sobre mí
+Hola, soy **Anth'Zz Berrocal**, conocido como **BerMatModZ**, un joven apasionado por la **tecnología, el desarrollo de bots, la inteligencia artificial y la ciberseguridad**.  
+He convertido mi curiosidad en una forma de vida digital.  
+Mi meta es construir herramientas inteligentes, seguras y creativas que transformen la experiencia digital de las personas.
 
-<div align="center">
-  <a href="https://github.com/BerMatMods" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-BerMatMods-000000?style=for-the-badge&logo=github"/>
+💬 *“El código no solo se escribe, se siente. Cada línea puede cambiar el mundo digital.”*
+
+---
+
+### ⚙️ Habilidades y tecnologías
+```bash
+🧠 Lenguajes: Python | Java | HTML | CSS | JavaScript
+💡 Entornos: Termux | AIDE | Node.js | GitHub | Visual Studio Code
+🧩 Áreas: Bots | IA | Automatización | Ciberseguridad | Diseño Web Futurista
+🔧 Herramientas: FFMPEG | Espeak | API OpenAI | Git | JSON | Bash
+
+
+---
+
+🚀 Mis Proyectos Destacados
+
+⚡ BerMat-Bot MD🔥
+
+> Bot de WhatsApp desarrollado desde Termux, con funciones de inteligencia artificial, comandos divertidos, juegos, stickers automáticos y respuestas personalizadas.
+👤 Creador: Anth’Zz Berrocal
+📍 Ubicación: Andahuaylas – Perú
+💬 Prefijo: .BerMat
+
+
+
+🤖 BerMatMods_Bot
+
+> Aplicación móvil en AIDE (Java - API 23) totalmente personalizada, combinando IA con interfaz visual avanzada.
+💻 En desarrollo constante.
+
+
+
+🧩 Simuladores Interactivos
+
+> Scripts creados en Termux con animaciones y efectos realistas de hackeo y sistemas Anonymous.
+🎯 Foco en entretenimiento y educación tecnológica.
+
+
+
+🌐 Webs Futuristas
+
+> Diseño de páginas con efectos visuales, animaciones, luces neon y temáticas hacker.
+💥 Inspiradas en la estética Cyberpunk y Ciberseguridad Pro.
+
+
+
+
+---
+
+📊 Estadísticas de GitHub
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=BerMatMods&show_icons=true&theme=radical" width="47%">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BerMatMods&theme=radical" width="47%">
+</p>
+---
+
+🧠 Proyectos y Bots Activos
+
+Proyecto	Plataforma	Estado	Descripción
+
+⚡ BerMat-Bot MD🔥	WhatsApp (Termux)	🚀 Activo	Bot con IA, juegos, herramientas y sistema de stickers.
+🤖 BerMatMods_Bot	Android (AIDE)	⚙️ En desarrollo	Aplicación moderna con IA integrada y diseño personalizado.
+🧩 Simulador Anonymous	Termux	✅ Finalizado	Script educativo con estética hacker y narración interactiva.
+💥 BerMat Web Futurista	HTML/CSS	💻 Activo	Sitio personal con animaciones, efectos y estilo profesional.
+
+
+
+---
+
+🛰️ Mis metas
+
+🔹 Desarrollar sistemas de IA propios con voz natural.
+
+🔹 Convertir BerMatMods_Bot en una app completa y pública.
+
+🔹 Integrar paneles web a mis bots.
+
+🔹 Expandir mis proyectos a GitHub, Android y servidores globales.
+
+🔹 Inspirar a otros jóvenes a crear sin límites.
+
+
+
+---
+
+📍 Ubicación
+
+🌎 Andahuaylas, Perú
+📶 Internet ilimitado - Bitel
+💻 Trabajo principalmente desde móvil (Termux / AIDE)
+
+
+---
+
+🔗 Mis Redes Oficiales
+
+<p align="center">
+  <a href="https://www.instagram.com/anthz_berrocal?igsh=MXFvamljcnN2bzJkbg==" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/instagram/instagram-original.svg" width="40px"/>
   </a>
-  <a href="https://t.me/BerMatMods" target="_blank">
-    <img src="https://img.shields.io/badge/Telegram-BerMatMods-0088cc?style=for-the-badge&logo=telegram"/>
-  </a>
-  <a href="https://wa.me/51937556459" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-937556459-25D366?style=for-the-badge&logo=whatsapp"/>
-  </a>
-  <a href="https://www.facebook.com/anthzzberrocal" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-AnthZz_Berrocal-1877F2?style=for-the-badge&logo=facebook"/>
-  </a>
-  <a href="https://www.instagram.com/anthz_berrocal" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-AnthZz_Berrocal-E4405F?style=for-the-badge&logo=instagram"/>
+  <a href="https://www.facebook.com/share/1AYGVF9ZKn/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" width="40px"/>
   </a>
   <a href="https://youtube.com/@anthzz_berro" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-AnthZz_Berrocal-FF0000?style=for-the-badge&logo=youtube"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/youtube/youtube-original.svg" width="40px"/>
   </a>
-</div>
-
----
-
-<!-- PROYECTOS DESTACADOS -->
-<h2 align="center" style="color:#00ffaa;">╔══════🚀 PROYECTOS DESTACADOS 🚀══════╗</h2>
-
-<ul align="center" style="font-family:'Courier New', monospace; color:#00ffaa; font-size:16px;">
-  <li>⚡ <strong>🔥BerMat-Bot MD🔥</strong> – Bot de WhatsApp con IA, juegos, menús decorados y sistema de administración avanzada.</li>
-  <li>📁 <strong>BerMat_Mods</strong> – Repositorio con scripts, herramientas hacking y utilidades educativas.</li>
-  <li>💀 <strong>F.A.M.A Project</strong> – Fuerza Anónima de Mentes Avanzadas: comunidad de desarrolladores y hackers éticos.</li>
-  <li>💬 <strong>AI Talk System</strong> – Motor de inteligencia artificial integrado con WhatsApp y Telegram.</li>
-  <li>🔐 <strong>Clon WhatsApp UI</strong> – Proyecto visual para simular chats con estética real de WhatsApp Web.</li>
-  <li>🧠 <strong>BerMat_AI Engine</strong> – Sistema experimental de IA para aprendizaje adaptativo en bots.</li>
-  <li>💻 <strong>Terminal Hacker PRO</strong> – Simulación visual tipo Anonymous para prácticas de ciberseguridad.</li>
-  <li>🌐 <strong>BerMat Webs</strong> – Páginas profesionales y románticas con efectos animados, HTML + CSS + JS.</li>
-</ul>
-
----
-
-<!-- SECCIÓN DE TECNOLOGÍA -->
-<h2 align="center" style="color:#00ffaa;">╔════════🤖 TECNOLOGÍA Y HABILIDADES 🤖════════╗</h2>
-
-<div align="center" style="background:#000; padding:20px; border-radius:12px; max-width:850px; border:2px solid #00ffaa;">
-  <p align="center" style="color:#00ffaa; font-family:'Courier New', monospace;">
-    🚀 <strong>Automatización:</strong> Bots para WhatsApp, Telegram, Discord y Web.<br>
-    🧠 <strong>IA Aplicada:</strong> Chatbots conversacionales, procesamiento de texto y análisis predictivo.<br>
-    🌍 <strong>Desarrollo Web:</strong> Diseño UI/UX moderno, responsivo y animado.<br>
-    💾 <strong>Back-End:</strong> API REST, bases de datos y lógica de servidor.<br>
-    🔐 <strong>Hacking Ético:</strong> Pentesting, OSINT, spoofing, cifrados y análisis de vulnerabilidades.<br>
-    🧰 <strong>DevTools:</strong> Git, Termux, VSCode, AIDE, NPM, Linux Bash, Python Shell.<br>
-    ⚙️ <strong>Cloud & VPS:</strong> Configuración de bots y servidores remotos sin costo.<br>
-    🧩 <strong>IA + Android:</strong> Integración entre AIDE y APIs inteligentes.
-  </p>
-</div>
-
----
-
-<!-- FRASE PERSONAL -->
-<h2 align="center" style="color:#00ffff;">╔═════💡 FILOSOFÍA DE CÓDIGO 💡═════╗</h2>
-
-<p align="center" style="font-style:italic; color:#00ffaa; font-family:'Courier New', monospace; font-size:17px; line-height:1.6; background:#0e1212; padding:15px; border-radius:10px; max-width:700px; margin:0 auto;">
-  🧠 “El código es mi idioma, la red mi campo de batalla, y la inteligencia mi arma.  
-  No compito por fama, sino por conocimiento y evolución.”  
 </p>
-<p align="center" style="color:#aaa; font-family:'Courier New', monospace;">
-  — <strong>Anth'Zz Berrocal ⚡BerMatModZ🔥</strong> 🛸
-</p>
+---
+
+💬 Frases que me representan
+
+> 🧠 “Los límites no existen cuando tu código es tu lenguaje.”
+⚡ “No temo al error, temo a no intentarlo.”
+👾 “La tecnología no duerme, y yo tampoco.”
+
+
+
 
 ---
 
-<!-- SOBRE MÍ -->
-<h2 align="center" style="color:#00ffaa;">╔═════════👨‍💻 SOBRE MÍ 👨‍💻═════════╗</h2>
+💥 Banner de bienvenida
 
-<p align="center" style="font-family:'Courier New', monospace; color:#00ffaa; background:#000; padding:18px; border-radius:10px; max-width:650px; margin:15px auto; border:1px solid #00ffaa;">
-  🔰 <strong>Alias:</strong> ⚡BerMatModZ🔥<br>
-  🎓 <strong>Formación:</strong> Autodidacta en programación, IA y hacking ético<br>
-  💼 <strong>Objetivo:</strong> Crear sistemas de inteligencia artificial funcionales y bots avanzados<br>
-  💪 <strong>Visión:</strong> Fusionar la tecnología con la creatividad humana<br>
-  🤖 <strong>Misión:</strong> Desarrollar herramientas que conecten mente, máquina y código<br>
-  🌍 <strong>Comunidad:</strong> F.A.M.A – Fuerza Anónima de Mentes Avanzadas 👽
-</p>
+𝑩𝑬𝑹𝑴𝑨𝑻𝑴𝑶𝑫𝒁 🫦 𝑻𝑬 𝑫𝑨 🤡 𝑳𝑨 𝑩𝑰𝑬𝑵𝑽𝑬𝑵𝑰𝑫𝑨 👹 𝑨𝑳 🔪 𝑴𝑼𝑵𝑫𝑶 𝑫𝑬 🔥 𝑪𝑰𝑽𝑬𝑹𝑨𝑻𝑨𝑸𝑼𝑬 😎 𝒀 💥 𝑪𝑰𝑽𝑬𝑹𝑺𝑬𝑮𝑼𝑹𝑰𝑫𝑨𝑫 👽🤖
+
 
 ---
 
-<!-- MENSAJE FINAL -->
-<h2 align="center" style="color:#00ffff;">
-  ╔══════════════════════════════════╗<br>
-  👽 ¡Gracias por visitar mi perfil!<br>
-  💻 Explora mis proyectos, sigue mis creaciones y evoluciona conmigo.<br>
-  🚀 <strong>F.A.M.A</strong> - Fuerza Anónima de Mentes Avanzadas<br>
-  ╚══════════════════════════════════╝
-</h2>
+🧠 Animación de texto
 
-<h3 align="center" style="color:#aaa; font-style:italic;">
-  ═══════ By: <strong>BerMat_MD</strong> ═══════
-</h3>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&duration=4000&color=00F7FF&center=true&vCenter=true&width=800&lines=⚡+Bienvenido+a+mi+universo+digital;👾+Soy+Anth'Zz+Berrocal;🔥+Creador+de+BerMat-Bot+MD;💻+Avanzando+en+tecnología+y+ciberseguridad;🌐+BerMatMods+en+constante+evolución" />
+</p>
+---
 
-<style>
-  @keyframes float {
-    0%,100%{transform:translateY(0);}
-    50%{transform:translateY(-8px);}
-  }
-</style>
+🎯 Contacto profesional
+
+📧 Email: bermatmods.dev@gmail.com (puedes cambiarlo si usas otro)
+💬 GitHub: github.com/BerMatMods
+📱 WhatsApp (bot): disponible próximamente ⚙️
+
+
+---
+
+<p align="center">
+  <img src="https://i.imgur.com/zY6UjtF.gif" width="250px" alt="Matrix animation">
+</p>
+---
+
+<p align="center">
+  <b>⚡ BerMatModZ 2025 | Innovación, código y futuro. 🚀</b>
+</p>
+```
